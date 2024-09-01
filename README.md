@@ -23,7 +23,9 @@ This project demonstrates the use of Apache Airflow for orchestration, PySpark f
 
 4. **BigQuery**:
    - Data is uploaded to BigQuery for advanced analytics and querying.
-   - Enables scalable and efficient querying of large datasets.
 
 5. **Power BI**:
    - Data visualizations and dashboards are created to present insights derived from the processed data.
+
+## Results project
+![Airflow Diagram](project_airflows/workflow.png)
