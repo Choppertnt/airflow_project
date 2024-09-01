@@ -1,0 +1,17 @@
+scikit-learn
+pandas
+openpyxl
+sqlalchemy
+psycopg2-binary
+python-dotenv
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+pyspark ==3.5.1
+google-cloud-storage
+apache-airflow-providers-apache-spark
+py4j
+google-cloud-storage
+apache-airflow-providers-google
+google-cloud-bigquery

@@ -1,0 +1,10 @@
+# Ignoring .env file
+spark/
+rapid-idiom-432113-m4-8bf13c095a8f.json
+dags/rapid-idiom-432113-m4-8bf13c095a8f.json
+config/
+spark-logs/
+plugins/
+dags/__pycache__
+dags/airflow_demo1
+logs/
