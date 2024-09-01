@@ -27,5 +27,29 @@ This project demonstrates the use of Apache Airflow for orchestration, PySpark f
 5. **Power BI**:
    - Data visualizations and dashboards are created to present insights derived from the processed data.
 
+## Workflow
+1. **Read CSV File from GCP**:
+    - Use PySpark with JARs and GCP APIs to access and read the CSV file from Google Cloud Platform (GCP).
+    - Transform the data using PySpark SQL.
+2. **Check for Duplicates in the CSV File**:
+    - Analyze the data to identify any duplicate entries.
+3. **Handle Duplicates or Pass to Next Step of CSV File**:
+    - If duplicates are found:
+        - Pass the data to the handles_duplicated function to clear the duplicates.
+    - If no duplicates are found:
+        - Pass the data to the process_duplicated function to proceed to the next step.
+4. **Check for Duplicates Against BigQuery**:
+    - Compare the cleaned CSV data against existing records in BigQuery to identify any duplicates.
+5. **Handle Duplicates or Pass to Next Step of BigQuery**:
+    - If duplicates are found:
+        - Pass the data to the handles_duplicated_Bigquery function to clear the duplicates.
+    - If no duplicates are found:
+        - Pass the data to the handles_duplicated_Bigquery function to proceed to the next step.
+6. **Data upload to BigQuery**:
+    - Upload the validated and deduplicated data to BigQuery.
+7. **Transform Data Ready for Visualization**:
+    - GRetrieve data from BigQuery for sales_data and customers_data.
+    - Use PySpark SQL to perform a left join between the two datasets.
+
 ## Results project
 ![Airflow Diagram](project_airflows/workflow.png)
