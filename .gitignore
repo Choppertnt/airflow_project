@@ -8,4 +8,4 @@ plugins/
 dags/__pycache__
 dags/airflow_demo1
 logs/
-.env/
+.env
