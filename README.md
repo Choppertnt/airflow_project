@@ -52,4 +52,4 @@ This project demonstrates the use of Apache Airflow for orchestration, PySpark f
     - Use PySpark SQL to perform a left join between the two datasets.
 
 ## Results project
-![Dagster_workspace](output/output.png)
+![Airflow Diagram](project_airflows/workflow.png)
