@@ -55,4 +55,4 @@ This project demonstrates the use of Apache Airflow for orchestration, PySpark f
 ![Airflow Diagram](project_airflows/workflow.png)
 
 ## PowerBi Dashboard
-![Dashboard](project_airflows/โปรเจค BI_page-0001.jpg)
+![Dashboard](project_airflows/Bi_project.png)
