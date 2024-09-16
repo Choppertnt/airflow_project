@@ -1,4 +1,5 @@
 # Docker Airflow, PySpark, GCP, BigQuery
+![Work_diagram](project_airflows/airflows_project.png)
 
 ## Objective
 This project demonstrates the use of Apache Airflow for orchestration, PySpark for data cleaning and validation, data extraction from Google Cloud Platform (GCP), uploading data to BigQuery, and presenting the data through Power BI. The goal is to showcase the integration of these technologies to manage and analyze data effectively.
