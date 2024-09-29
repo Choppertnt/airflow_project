@@ -31,7 +31,7 @@ This project demonstrates the use of Apache Airflow for orchestration, PySpark f
 ## Workflow
 1. **Read CSV File from GCP**:
     - Use PySpark with JARs and GCP APIs to access and read the CSV file from Google Cloud Platform (GCP).
-    - Transform the data using PySpark SQL .
+    - Transform the data using PySpark SQL.
 2. **Check for Duplicates in the CSV File**:
     - Analyze the data to identify any duplicate entries.
 3. **Handle Duplicates or Pass to Next Step of CSV File**:
